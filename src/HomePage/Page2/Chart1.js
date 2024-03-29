@@ -1,6 +1,6 @@
 import React from 'react'
-// import Chart from "chart.js/auto";
-// import { CategoryScale } from "chart.js";
+import Chart from "chart.js/auto";
+import { CategoryScale } from "chart.js";
 import { useState } from "react";
 import { Data } from "./Data";
 import { BarChart } from './BarChart';
@@ -26,7 +26,7 @@ export default function Chart1() {
     });
 
     return (
-        <div className="App">
+        <div className="Chart">
             {/* <p>Using Chart.js in React</p>/ */}
             <BarChart chartData={chartData} />
         </div>

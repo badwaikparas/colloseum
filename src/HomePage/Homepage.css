@@ -30,3 +30,42 @@ body {
     margin-right:300px;
     color: red;
   } */
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+#logo-name {
+    margin-left: 10px;
+    /* Adjust as needed */
+}
+
+#logo-name span {
+    display: block;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Add this line */
+}
+
+/* You may need to adjust the styling of Logo and NavBar components */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content-container {
+    margin-top: 20px;
+}
+
+chart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

@@ -1,27 +1,32 @@
-import React from 'react'
-// import { useNavigate } from 'react-router-dom'
-
+import React from 'react';
+import './Body.css';
+import Logo1 from './Logo1';
 
 function Body() {
-    // const navigate = useNavigate();
-    // const handleClick = () => {
-    //     // navigate('/your-target-page'); // Replace with the actual path
-    //     console.log("View Challenges")
-    // };
     const handleClick = () => {
-        alert("View Challenges"); // This line will be executed on click
+        alert("View Challenges");
     };
+
     return (
-        <>
-            <div>
-                Capture The Flag
+        <div className="body-wrapper">
+            <div className="text-and-logo-container">
+                <div className="body-container">
+                    <div className="body-text" style={{ marginBottom: '10px' }}>
+                        Capture The Flag
+                    </div>
+                    <div className="body-text" style={{ marginTop: '10px' }}>
+                        SemiColon Tech Club
+                    </div>
+                    <div className="challenge-button" style={{ marginTop: '10px' }}>
+                        <button type="button" autoFocus onClick={handleClick} >VIEW CHALLENGES</button>
+                    </div>
+                </div >
+                <div className="logo-container" >
+                    <Logo1 />
+                </div>
             </div>
-            <div>
-                SemiColon Tech Club
-            </div>
-            <button type="button" autoFocus onClick={handleClick}>VIEW CHALLENGES</button>
-        </>
-    )
+        </div>
+    );
 }
 
-export default Body
+export default Body;
