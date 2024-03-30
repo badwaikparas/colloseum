@@ -38,19 +38,25 @@ import ScoreBoard from './Page2/ScoreBoard'; // Assuming you have a ScoreBoard c
 import LineChart from './Page2/LineChart'; // Assuming you have a Graph component
 // import Challenges from './Challenges'; // Assuming you have a Challenges component
 import Logo from './Page1/Logo';
+import Progress from './Progress';
 
 export default function App() {
     return (
         <Router>
-            <div>
-                <div className="app-container">
-                    <Logo />
-                    <NavBar />
+            <div style={{ backgroundColor: 'black' }}>
+                <div className='logo-app-container'>
+                    <div className='logo-container'>
+                        <Logo />
+                    </div>
+                    <div className="app-container">
+                        <NavBar />
+                    </div>
                 </div>
                 <Routes>
                     <Route path="/" exact element={<Body />} />
-                    <Route path="/scoreboard" element={<ScoreBoard />} />
-                    <Route path="/graph" element={<LineChart />} />
+                    {/* <Route path="/scoreboard" element={<ScoreBoard />} /> */}
+                    <Route path="/progress" element={<Progress />} />
+                    {/* <Route path="/graph" element={<LineChart />} /> */}
                     {/* <Route path="/challenges" component={<Challenges />} /> */}
                 </Routes>
             </div>

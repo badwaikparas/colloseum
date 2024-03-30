@@ -38,7 +38,7 @@ function ScoreBoard() {
 
     return (
         <div className="recent-order">
-            <h2>Recent Order</h2>
+            <h2>Score Board</h2>
             <table>
                 <thead>
                     <tr>

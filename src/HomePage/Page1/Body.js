@@ -11,19 +11,19 @@ function Body() {
         <div className="body-wrapper">
             <div className="text-and-logo-container">
                 <div className="body-container">
-                    <div className="body-text" style={{ marginBottom: '10px' }}>
-                        Capture The Flag
+                    <div className="body-text">
+                        Colosseum 14.0
                     </div>
                     <div className="body-text" style={{ marginTop: '10px' }}>
-                        SemiColon Tech Club
+                        Capture The Flag (CTF)
                     </div>
                     <div className="challenge-button" style={{ marginTop: '10px' }}>
                         <button type="button" autoFocus onClick={handleClick} >VIEW CHALLENGES</button>
                     </div>
                 </div >
-                <div className="logo-container" >
+                {/* <div className="logo-container" >
                     <Logo1 />
-                </div>
+                </div> */}
             </div>
         </div>
     );

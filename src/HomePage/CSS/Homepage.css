@@ -89,6 +89,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
+    /* background-color: black; */
+    color: white;
     /* Add this line */
 }
 
@@ -156,3 +159,19 @@ table tbody td {
 }
 
 /* ================================================================================= */
+
+/* .logo-app-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+} */
+
+.logo-app-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    /* Ensure the container spans the full width */
+    padding: 0 20px;
+    /* Add padding as needed */
+}

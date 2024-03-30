@@ -26,8 +26,10 @@ export default function NavBar() {
             <nav>
                 <ul id='navbar-items' className=''>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/scoreboard">Score Board</Link></li>
-                    <li><Link to="/graph">Graph</Link></li>
+                    {/* <li><Link to="/scoreboard">Score Board</Link></li> */}
+                    {/* <li><Link to="/graph">Graph</Link></li> */}
+
+                    <li><Link to="/progress">Progress</Link></li>
                     <li><Link to="/challenges">Challenges</Link></li>
                 </ul>
             </nav>

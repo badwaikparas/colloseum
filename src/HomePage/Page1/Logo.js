@@ -1,13 +1,14 @@
 import React from 'react'
+import logo from 'C://Users//Paras//Desktop//Coloseum//colloseum//src//HomePage//Asset//logo.png'
 
 function Logo() {
   return (
     <div class='logo'>
-      <img src="https://cdn.pixabay.com/photo/2017/03/16/21/18/logo-2150297_640.png" alt="loading" height={'100px'}></img>
-      <div id="logo-name">
+      <img src={logo} alt="loading" height={'150px'}></img>
+      {/* <div id="logo-name">
         CTF<br></br>
         A CYBER HACKATON
-      </div>
+      </div> */}
     </div>
   )
 }
