@@ -95,6 +95,19 @@ body {
     /* Add this line */
 }
 
+#navbar-items li a {
+    color: white;
+    /* Set text color to white */
+    text-decoration: none;
+    /* Remove text decoration */
+}
+
+#navbar-items li a:hover {
+    /* Optionally, you can add hover effect */
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
 /* You may need to adjust the styling of Logo and NavBar components */
 .homepage-container {
     display: flex;
@@ -175,3 +188,5 @@ table tbody td {
     padding: 0 20px;
     /* Add padding as needed */
 }
+
+/* ============================================================================ */

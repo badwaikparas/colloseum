@@ -1,6 +1,6 @@
 import React from 'react';
 import 'C://Users//Paras//Desktop//Coloseum//colloseum//src//HomePage//CSS//Body.css';
-import Logo1 from './Logo1';
+import ElevatedButton from './ElevatedButton';
 
 function Body() {
     const handleClick = () => {
@@ -17,8 +17,12 @@ function Body() {
                     <div className="body-text" style={{ marginTop: '10px' }}>
                         Capture The Flag (CTF)
                     </div>
-                    <div className="challenge-button" style={{ marginTop: '10px' }}>
+                    {/* <div className="challenge-button" style={{ marginTop: '10px' }}>
                         <button type="button" autoFocus onClick={handleClick} >VIEW CHALLENGES</button>
+                    </div> */}
+
+                    <div style={{ marginTop: '25px' }}>
+                        <ElevatedButton onClick={handleClick}>View Challenges</ElevatedButton>
                     </div>
                 </div >
                 {/* <div className="logo-container" >

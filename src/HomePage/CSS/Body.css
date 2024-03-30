@@ -70,3 +70,49 @@
     max-height: 100%;
     /* Ensure the logo image does not exceed its container */
 }
+
+/* ================================================================== */
+
+.elevated-button {
+    background-color: red;
+    /* Button background color */
+    color: #fff;
+    /* Text color */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Box shadow for elevation */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effect */
+
+    /* Hover effect */
+    &:hover {
+        color: red;
+        /* Change font color to red */
+        background-color: black;
+        /* Change button background color to black */
+        border: 2px solid white;
+        /* Set border to white */
+        /* border-radius: 20px; */
+        /* Change border radius to white */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        /* Adjust box shadow */
+    }
+
+    /* Active effect */
+    &:active {
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        transform: translateY(1px);
+        /* Push button down slightly on click */
+    }
+}
+
+
+
+
+/* ===================================================================================== */
