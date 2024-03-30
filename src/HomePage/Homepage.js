@@ -3,8 +3,8 @@ import './Homepage.css'; // Import your CSS file
 import NavBar from './Page1/NavBar';
 import Body from './Page1/Body';
 import Logo from './Page1/Logo';
-import Chart1 from './Page2/Chart1';
 import ScoreBoard from './Page3/ScoreBoard';
+import LineGraph from './Page2/LineChart';
 
 export class Homepage extends Component {
     render() {
@@ -16,7 +16,7 @@ export class Homepage extends Component {
                 </div>
                 <Body />
                 <div className="chart-container">
-                    <Chart1 />
+                    <LineGraph />
                 </div>
                 <div>
                     <ScoreBoard />
