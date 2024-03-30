@@ -4,6 +4,7 @@ import NavBar from './Page1/NavBar';
 import Body from './Page1/Body';
 import Logo from './Page1/Logo';
 import Chart1 from './Page2/Chart1';
+import ScoreBoard from './Page3/ScoreBoard';
 
 export class Homepage extends Component {
     render() {
@@ -16,6 +17,9 @@ export class Homepage extends Component {
                 <Body />
                 <div className="chart-container">
                     <Chart1 />
+                </div>
+                <div>
+                    <ScoreBoard />
                 </div>
             </>
         );
