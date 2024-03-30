@@ -4,7 +4,7 @@ import ScoreBoard from './Page2/ScoreBoard'
 
 function Progress() {
     return (
-        <div>
+        <div style={{ paddingTop: '70px' }}>
             <LineGraph />
             <ScoreBoard />
         </div>

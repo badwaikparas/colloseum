@@ -43,7 +43,7 @@ import Progress from './Progress';
 export default function App() {
     return (
         <Router>
-            <div style={{ backgroundColor: 'black' }}>
+            <div style={{ backgroundColor: 'black', }}>
                 <div className='logo-app-container'>
                     <div className='logo-container'>
                         <Logo />
