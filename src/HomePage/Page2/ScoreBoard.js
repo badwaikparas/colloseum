@@ -42,7 +42,7 @@ function ScoreBoard() {
             <table>
                 <thead>
                     <tr>
-                        <th>Rank</th>
+                        {/* <th>Rank</th> */}
                         <th>Team Name</th>
                         <th>Time</th>
                         <th>Score</th>
@@ -52,7 +52,7 @@ function ScoreBoard() {
                 <tbody>
                     {scores.map((score, index) => (
                         <tr key={index}>
-                            <td>{score.rank}</td>
+                            {/* <td>{score.rank}</td> */}
                             <td>{score.teamName}</td>
                             <td>{score.time}</td>
                             <td>{score.score}</td>

@@ -1,3 +1,4 @@
+// import { useState } from 'react';
 import {
     Chart as ChartJS,
     LineElement,
@@ -23,6 +24,7 @@ ChartJS.register(
 );
 
 function LineGraph() {
+    // const [teamData, setTeamData] = useState()
     const data = {
         // YYYY-MM-DD
         labels: ['2021-11-06 23:39:30', '2021-11-06 23:49:30', '2021-11-06 23:59:30', '2021-11-07 00:09:30'], // time  X
@@ -58,7 +60,9 @@ function LineGraph() {
                         y: 5
                     }
                 ],
-            }, {
+                // data: teamData,
+            },
+            {
                 label: ['Team 149'], // team names
                 data: [1, 1, 1, 1.69], // scores  Y
                 backgroundColor: 'blue',

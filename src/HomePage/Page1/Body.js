@@ -1,5 +1,5 @@
 import React from 'react';
-import './Body.css';
+import 'C://Users//Paras//Desktop//Coloseum//colloseum//src//HomePage//CSS//Body.css';
 import Logo1 from './Logo1';
 
 function Body() {
